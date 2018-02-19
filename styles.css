@@ -1,1 +1,14 @@
 /* add your CSS here */
+.card {
+    padding: 20px;
+    border: 1px solid darkgreen;
+    border-radius: 5px;
+    width: 350px;
+    background-color: darkgreen;
+}
+
+.card-content {
+    padding: 10px;
+    background-color: whitesmoke;
+    text-align: center;
+}
