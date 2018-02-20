@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="%jQueryCDN"></script>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="main.js"></script>
     <meta charset="utf-8">
     <title>Animal Trading Cards</title>
 </head>
@@ -12,28 +12,27 @@
     <div class="card-content">
         <h3>ALIGATOR</h3>
         <!-- your favorite animal's image goes here -->
-        <img src="placeholder.png" alt="name-of-your-animal">
+        <img src="placeholder.png" alt="alligator">
         <div class="card-facts">
             <!-- your favorite animal's interesting fact goes here -->
-            <p>An alligator is a crocodilian in the genus Alligator of the family Alligatoridae.</p>
+            <p class="card-interesting-fact">An alligator is a crocodilian in the genus Alligator of the family Alligatoridae.</p>
             <ul>
                 <!-- your favorite animal's list items go here -->
-                <li><span>Alligators</span>:  first appeared during the Paleocene epoch about 66 million years ago.</li>
-                <li><span>Alligators</span>:  are native to only the United States and China.</li>
-                <li><span>Alligators</span>:  move on land by two forms of locomotion referred to as "sprawl" and "high walk".</li>
-                <li>The sex of the offspring is determined by the temperature in the nest and is fixed within seven to 21 days of the start of incubation. </li>
+                <li><span>Alligators</span>: first appeared during the Paleocene epoch about 66 million years ago.</li>
+                <li><span>Alligators</span>: are native to only the United States and China.</li>
+                <li><span>Alligators</span>: move on land by two forms of locomotion referred to as "sprawl" and "high
+                    walk".
+                </li>
+                <li>The sex of the offspring is determined by the temperature in the nest and is fixed within seven to
+                    21 days of the start of incubation.
+                </li>
             </ul>
             <!-- your favorite animal's description goes here -->
-            <p>Write a brief description about your favorite animal...</p>
+            <p> The two living species
+                are the American alligator (A. mississippiensis) and the Chinese alligator (A. sinensis). In addition,
+                several extinct species of alligator are known from fossil remains.</p>
         </div>
     </div>
 </div>
-<script>
-$(document).ready(function() {
-    $('#card').on('click', function () {
-        $(this).css("transform", "rotateY(360deg)");
-    })
-}
-</script>
 </body>
 </html>
